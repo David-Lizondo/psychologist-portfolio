@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atención Psicológica Profesional">
+    <meta name="robots" content="index, follow">
+    <title>Atención Psicológica - Lic. Lizondo David (UBA)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="page-header">
+        <h1>Atención Psicológica - Lic. Lizondo Patricio David (UBA)</h1>
+        <h2>M.N. 85366</h2>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="">Perfil Profesional</a></li>
+                <li class="main-nav__item"><a href="">Servicios</a></li>
+                <li class="main-nav__item"><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section>
+        <figure>
+            <img src="logo-sitioweb-2.png" alt="Logo del sitio" class="logo">
+            <figcaption>Es la imagen del logo</figcaption>
+        </figure>
+    </section>
+    
+    <h3>Reserva tu turno</h3>
+
+    <form action="">
+        <label for="nombre">
+            <span>Nombre completo: </span>
+            <input type="text" id="nombre" name ="nombre" autocomplete="name" required>
+        </label>
+
+        <label for="telefono">
+            <span>Celular: </span>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel" required>
+        </label>
+      
+        <label for="email">
+            <span>Correo electrónico: </span>
+            <input type="email" id="email" name="email" autocomplete="email">
+        </label>
+
+        <label for="mensaje">
+            <span>Mensaje: </span>
+            <textarea id="mensaje" name="mensaje" rows="10"></textarea>
+            
+        </label>
+
+        <p>Opcional: Disponibilidad para ser contactado/a </p>
+        
+        <label class="Opcional" for="fecha">
+            <span>Fecha: </span>
+            <input type="date" id="fecha" name="fecha">
+        </label>
+        
+        <label class="Opcional" for="hora">
+            <span>Hora: </span>
+            <input type="time" id="hora" name="hora">
+        </label>
+        
+        <p id="opcional-parrafo">Recuerde que el horario y la fecha será confirmado por el profesional</p>
+        <input type="submit" value="Enviar">
+
+    </form>
+  </main>
+</body>
+</html>
+

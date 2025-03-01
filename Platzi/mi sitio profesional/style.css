@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+.page-header {
+  background-color: #008080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#title-principal .title{
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+ .page-header #title-matricula {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-nav__item{
+  display: inline-block;
+ 
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 50px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.main-nav__item a:hover {
+  color: blue;
+} 
+
+.main-nav__item a:active{
+  color:red;
+}
+
+.main-nav__item a::after {
+  content: " | " ;
+}
+
+/* Formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  
+}
+
+
+
+form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: block; /* Pone los campos por defecto en bloque */
+}
+
+form span {
+  display: block; /* Pone el título encima del campo */
+  margin-bottom: 5px; /* Espaciado entre el título y el campo */
+  font-weight: bold; /* Hace el título más llamativo */
+}
+
+form textarea {
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  padding: 10px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  resize: vertical; /* Permite redimensionar solo en altura */
+}
+
+/* Clase Opcional */
+.Opcional {
+  display: inline-block;
+  width: 48%; /* Opcional: ancho para que los elementos quepan en la misma línea */
+  margin-right: 2%; /* Espacio entre elementos */
+  vertical-align: top; /* Alinea con la parte superior */
+}
+
+#opcional-parrafo {
+  margin-bottom: 30px; /* Aumenta el espacio debajo del párrafo */
+}
+
+/* Estilo general para el botón */
+form input[type="submit"] {
+  background-color: #008080;
+  color: white;
+  border: solid snow;
+  padding: 15px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-bottom: 15px;
+ 
+}
+
+form input[type="submit"]:hover {
+  background-color: #006666;
+}
+
+/*Logo*/
+.logo {
+  width: 300px; /* Ajusta el ancho según lo necesites */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
+}
+
+/* Texto debajo de la imagen */
+figcaption {
+  text-align: center; /* Centra el texto */
+  margin: 5px 40px; /* Espacio entre la imagen y el texto */
+}
+
+h3 {
+  text-align: center; /* Centra el texto */
+  margin: 25px 40px;
+}
